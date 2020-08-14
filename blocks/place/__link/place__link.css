@@ -1,0 +1,24 @@
+.place__link {
+    opacity: 1;
+    transition: opacity 2s linear 0.1s;
+    color: white;
+    text-decoration: none;
+    /*  grid-area: website*/;
+}
+
+.place__link:hover {
+opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+    .place__link {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .place__link {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

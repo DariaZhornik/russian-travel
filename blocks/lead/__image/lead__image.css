@@ -1,0 +1,19 @@
+.lead__image {
+    width: 100%;
+    min-width: 320px;
+    min-height: 200px;
+    margin-bottom: 0;
+    
+}
+
+@media screen and (min-width: 1024) {
+    .lead__image {
+        width: 928px; 
+    }
+}
+
+@media screen and (min-width: 1280) {
+    .lead__image {
+        width: 984px; 
+    }
+}
