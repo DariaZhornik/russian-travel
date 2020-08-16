@@ -13,19 +13,21 @@
     z-index: 1;
     background-image: url(../../images/cover-trains.jpg);
     padding-bottom: 62.5%;
+    height: 62.5%;
     background-size: cover;
     position: relative;
 }
 
 @media screen and (min-width: 768px) {
     .cover {
-        margin-top: 12px;
+        margin-top: 16px;
         margin-bottom: 88px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .cover {
+        margin-top: 12px;
         margin-bottom: 92px;
     }
 }
@@ -33,5 +35,6 @@
 @media screen and (min-width: 1280px) {
     .cover {
         max-width: 1184px;
+        max-height: 740px;
     }
 }

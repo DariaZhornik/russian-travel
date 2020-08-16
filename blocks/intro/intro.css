@@ -4,11 +4,11 @@
 @import url("./__span-accent/intro__span-accent.css");
 
 .intro {
-    max-width: 288px;
+    min-width: 288px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    width: 100%;
+    width: 90%;
     margin-bottom: 20%;
     padding: 0;
 }
@@ -17,6 +17,7 @@
     .intro {
         margin-bottom: 88px;
         max-width: 720px; 
+        margin-left: 24px;
     }
 }
 
@@ -24,13 +25,13 @@
     .intro {
         margin-bottom: 96px;
         max-width: 690px;
-        padding-right: 238px;
+        margin-left: 48px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .intro {
-        padding-right: 294px;
+        margin-left: 148px;
     }
 }
 

@@ -4,55 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css"> 
 </head>
 <body>
   <div class="page">
-    <main class="content">
       <header class="header">
           <img src="./images/header-logo.svg" alt="Россия" class="header__logo"> 
-          <div class="header__lang-links">
-          <a href="#" class="header__lang-link_ru">Ru</a>
-          <a href="#" class="header__lang-link_en">En</a>
-          </div>
+          <ul class="header__lang-links">
+          <li><a href="#" class="header__lang-link_active header__lang-link">Ru</a></li>
+          <li><a href="#" class="header__lang-link">En</a></li>
+          </ul>
       </header>
-      <section class="lead">
+      <main class="content">
+        <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-          <img src="./images/lead-polka.jpg" alt="Полка" class="lead__image"> 
-          <p class="lead__caption">ваша полка — верхняя</p>
-      </section> 
-      <section class="intro">
+          <figure>
+            <img src="./images/lead-polka.jpg" alt="Полка" class="lead__image">
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+          </figure>
+        </section> 
+        <section class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
           <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
           <ul class="intro__list">
-          <li><span class="intro__span-accent">Часовых поясов</span> 11</li>
-          <li><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
-          <li><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-          <li><span class="intro__span-accent">Природных заповедников</span> 105</li>
-          <li><span class="intro__span-accent">Аэропортов</span> 241</li> 
+            <li><span class="intro__span-accent">Часовых поясов</span> 11</li>
+            <li><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
+            <li><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+            <li><span class="intro__span-accent">Природных заповедников</span> 105</li>
+            <li><span class="intro__span-accent">Аэропортов</span> 241</li> 
           </ul> 
-      </section> 
-      <section class="photo-grid">
-          <img src="./images/photo-grid-train.jpg" alt="train" class="photo-grid__item">
-          <img src="./images/photo-grid-atharva-tulsi.jpg" alt="atharva-tulsi" class="photo-grid__item"> 
-          <img src="./images/photo-grid-tuman.jpg" alt="tuman" class="photo-grid__item"> 
-          <img src="./images/photo-grid-sochi.jpg" alt="sochi" class="photo-grid__item">   
-          <img src="./images/photo-grid-arisa.jpg" alt="arisa" class="photo-grid__item"> 
-          <img src="./images/photo-grid-baikal.jpg" alt="baikal" class="photo-grid__item">  
-          <img src="./images/photo-grid-elbrus.jpg" alt="elbrus" class="photo-grid__item">  
-          <img src="./images/photo-grid-kondratiev.jpg" alt="kondratiev" class="photo-grid__item">  
-          <img src="./images/photo-grid-kamchatka-1.jpg" alt="kamchatka-1" class="photo-grid__item">  
-          <img src="./images/photo-grid-kamchatka-2.jpg" alt="kamchatka-2" class="photo-grid__item">   
-          <img src="./images/photo-grid-baikal-2.jpg" alt="baikal-2" class="photo-grid__item"> 
-          <img src="./images/photo-grid-ergaki.jpg" alt="ergaki" class="photo-grid__item"> 
-      </section> 
-      <section class="places">
+        </section> 
+        <section class="photo-grid">
+          <ul class="photo-grid__items">
+            <li><img src="./images/photo-grid-train.jpg" alt="train" class="photo-grid__item"></li>
+            <li><img src="./images/photo-grid-atharva-tulsi.jpg" alt="atharva-tulsi" class="photo-grid__item"></li>
+            <li><img src="./images/photo-grid-tuman.jpg" alt="tuman" class="photo-grid__item"></li>
+            <li><img src="./images/photo-grid-sochi.jpg" alt="sochi" class="photo-grid__item"></li>  
+            <li><img src="./images/photo-grid-arisa.jpg" alt="arisa" class="photo-grid__item"></li> 
+            <li><img src="./images/photo-grid-baikal.jpg" alt="baikal" class="photo-grid__item"></li>  
+            <li><img src="./images/photo-grid-elbrus.jpg" alt="elbrus" class="photo-grid__item"></li>  
+            <li><img src="./images/photo-grid-kondratiev.jpg" alt="kondratiev" class="photo-grid__item"></li>  
+            <li><img src="./images/photo-grid-kamchatka-1.jpg" alt="kamchatka-1" class="photo-grid__item"></li>  
+            <li><img src="./images/photo-grid-kamchatka-2.jpg" alt="kamchatka-2" class="photo-grid__item"></li>   
+            <li><img src="./images/photo-grid-baikal-2.jpg" alt="baikal-2" class="photo-grid__item"></li> 
+            <li><img src="./images/photo-grid-ergaki.jpg" alt="ergaki" class="photo-grid__item"></li> 
+          </ul>
+        </section> 
+        <section class="places">
           <article class="place">
             <h3 class="place__title">Куршская коса</h3>
             <div class="place__website">
-              <h4 class="place__url-heading">URL</h4>
+              <h4 class="place__url-heading">url</h4>
               <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
             </div>
             <img src="./images/place-kosa.jpg" alt="Куршская коса" class="place__image"> 
@@ -64,7 +67,7 @@
           <article class="place">
             <h3 class="place__title">Кольский</h3>
             <div class="place__website">
-              <h4 class="place__url-heading">URL</h4>            
+              <h4 class="place__url-heading">url</h4>            
               <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a>
             </div>
             <img src="./images/place-kolsky.jpg" alt="Кольский" class="place__image"> 
@@ -77,7 +80,7 @@
           <article class="place">
             <h3 class="place__title">Алтай</h3>
             <div class="place__website">
-              <h4 class="place__url-heading">URL</h4>
+              <h4 class="place__url-heading">url</h4>
               <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link">Facebook</a>
             </div>
             <img src="./images/place-altai.jpg" alt="Алтай" class="place__image"> 
@@ -90,7 +93,7 @@
           <article class="place">
             <h3 class="place__title">Зимний Байкал</h3>
             <div class="place__website">
-              <h4 class="place__url-heading">URL</h4>
+              <h4 class="place__url-heading">url</h4>
               <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
             </div>
             <img src="./images/place-winter-baikal.jpg" alt="Зимний Байкал" class="place__image"> 
@@ -102,7 +105,7 @@
           <article class="place">
             <h3 class="place__title">Карелия</h3>
             <div class="place__website">
-              <h4 class="place__url-heading">URL</h4>
+              <h4 class="place__url-heading">url</h4>
               <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
             </div>
             <img src="./images/place-karelia.jpg" alt="Карелия" class="place__image"> 
@@ -111,8 +114,8 @@
             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
             </div>
           </article>
-      </section> 
-      <section class="cover">
+        </section> 
+        <section class="cover">
           <a href="https://stampsy.com/na-elektrichkakh-do-baikala">
             <div class="cover__background">
             </div>
@@ -123,15 +126,19 @@
             </div>
           </a>
         </section>
+      </main>
       <footer class="footer">
-        <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
-        <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
-        <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
-        <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
-        <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
-        <p class="footer__copyright">© 2020. Дарья Жорник</p>
+      <nav class="footer__navigation">
+        <ul class="footer__links">
+          <li><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
+          <li><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
+          <li><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
+          <li><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
+          <li><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">&copy; 2020. Дарья Жорник</p>
       </footer> 
-    </main>
   </div>
 </body>
 </html>

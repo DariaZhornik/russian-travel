@@ -1,13 +1,13 @@
 @import url("./__lang-link/header__lang-link.css");
 @import url("./__logo/header__logo.css"); 
 @import url("./__lang-links/header__lang-links.css");
+@import url("./__lang-link/_active/header__lang-link_active.css");
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     width: 90%;
     padding-top: 5%;
 }
