@@ -5,9 +5,9 @@
     flex-direction: column;
     justify-content: space-between;
     max-width: 186px;
-    margin-left: 5%;
     margin-right: auto;
     padding-bottom: 24px;
+    padding-left: 0;
 }
     
 @media screen and (min-width: 768px) {

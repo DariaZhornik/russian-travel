@@ -8,10 +8,9 @@
 
 .place {
     display: grid;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     width: 100%;
-    padding-bottom: 15%;
+    padding-bottom: 48px;
 }
 
 @media screen and (min-width: 768px) {
