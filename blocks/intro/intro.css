@@ -23,14 +23,14 @@
 @media screen and (min-width: 1024px) {
     .intro {
         margin-bottom: 96px;
-        max-width: 690px;
-        margin-left: 48px;
+        max-width: 848px;     
+       /* margin-left: 48px; */
     }
 }
 
 @media screen and (min-width: 1280px) {
     .intro {
-        margin-left: 148px;
+        max-width: 904px;   
     }
-}
+} 
 

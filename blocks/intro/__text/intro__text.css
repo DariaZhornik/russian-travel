@@ -6,8 +6,10 @@
     margin-top: 0;
 }
 
-@media screen and (width: 1024px) {
+@media screen and (min-width: 1024px) {
     .intro__text {
         padding-bottom: 36px;
+        max-width: 690px;
     }
 }
+
