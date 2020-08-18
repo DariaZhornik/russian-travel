@@ -6,18 +6,9 @@
     left: 0;
     right: 0;
     bottom: 0;
-    width: 100%;
-    padding-bottom: 62.5%;
 }
 
 .cover__background:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-
-@media screen and (min-width: 1280px) {
-    .cover__background {
-        max-width: 1184px;
-        padding-bottom: 51.5%;
-    }
-}

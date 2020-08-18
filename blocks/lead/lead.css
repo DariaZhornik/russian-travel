@@ -34,5 +34,6 @@
     .lead {
         max-width: 984px; 
         margin-top: 56px;
+        padding: 0;
     }
 }
