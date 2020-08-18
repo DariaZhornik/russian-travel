@@ -9,24 +9,3 @@
     text-rendering: optimizeLegibility;
     margin: auto;
 }
-
-@font-face {
-    src: url("../fonts/Inter_web/Inter-Regular.woff2") format('woff2'),
-         url("../fonts/Inter_web/Inter-Regular.woff") format('woff');
-    font-family: 'Inter', Arial, sans-serif;
-    font-weight: 400;
-}
-
-@font-face {
-    src: url("../fonts/Inter_web/Inter-Bold.woff2") format('woff2'),
-         url("../fonts/Inter_web/Inter-Bold.woff") format('woff');
-    font-family: 'Inter', Arial, sans-serif;
-    font-weight: 700;
-}
-
-@font-face {
-    src: url("../fonts/Inter_web/Inter-Black.woff2") format('woff2'),
-         url("../fonts/Inter_web/Inter-Black.woff") format('woff');
-    font-family: 'Inter', Arial, sans-serif;
-    font-weight: 900;
-}

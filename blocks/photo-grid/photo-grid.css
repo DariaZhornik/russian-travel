@@ -1,6 +1,10 @@
 @import url("./__item/photo-grid__item.css");
 @import url("./__items/photo-grid__items.css");
 
+.photo-grid {
+    display: flex;
+}
+
 /* .photo-grid {
     display: grid; 
     max-width: 288px;
